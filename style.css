@@ -1,0 +1,16 @@
+/* Navbar custom style */
+.pinkbar {
+  background-color: #ffb6c1 !important; /* pastel pink */
+}
+
+/* Make text readable on pink */
+.pinkbar .fw-bold,
+.pinkbar .nav-link {
+  color: #fff !important;
+}
+
+/* Hover color tweak */
+.pinkbar .nav-link:hover {
+  color: #222 !important;
+}
+

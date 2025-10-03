@@ -13,4 +13,10 @@
 .pinkbar .nav-link:hover {
   color: #222 !important;
 }
+/*Hover effect for movie poster cards*/
+.card:hover, .p-3.border.rounded.h-100:hover {
+    transform: translateY(-10px);
+    transition: transform 0.2s ease-in-out;
+    box-shadow:75rem 1.5rem rbga(0,0,0,.15);
+  }
 
